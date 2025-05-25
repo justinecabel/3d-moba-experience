@@ -4,6 +4,8 @@ import { Joystick } from './components/Joystick';
 import { ThreeScene } from './components/ThreeScene';
 import type { JoystickOutput } from './types';
 
+import { Analytics } from '@vercel/analytics/react';
+
 const initialJoystickData: JoystickOutput = { x: 0, y: 0, active: false };
 
 const App: React.FC = () => {
@@ -165,6 +167,7 @@ const App: React.FC = () => {
           Attack
         </button>
       </div>
+      <Analytics />
     </div>
   );
 };
