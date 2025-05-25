@@ -1,0 +1,6 @@
+{
+  "name": "3D MOBA Experience ",
+  "description": "An interactive 3D application where users can control a character in a simple open world using a virtual joystick or keyboard. The character can perform an attack action and spawns at a team-specific base fountain. An enemy character with advanced AI roams the map, detects and attacks the player, and avoids the player's defense towers.\n",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
